@@ -1,0 +1,1220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Cloudflare Super Page Cache\n"
+"POT-Creation-Date: 2020-05-26 16:49+0200\n"
+"PO-Revision-Date: 2020-05-26 16:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: libs/backend.class.php:97 libs/backend.class.php:131
+msgid "Purge CF Cache"
+msgstr "Pulisci cache Cloudflare"
+
+#: libs/backend.class.php:104
+msgid "Purge whole Cloudflare Cache"
+msgstr "Pulisci l'intera cache"
+
+#: libs/backend.class.php:114
+msgid "Purge only current page cache"
+msgstr "Pulisci cache solo per questa pagina"
+
+#: libs/backend.class.php:141 libs/backend.class.php:142
+#: libs/views/settings.php:7
+msgid "WP Cloudflare Super Page Cache"
+msgstr "WP Cloudflare Super Page Cache"
+
+#: libs/backend.class.php:151 libs/backend.class.php:152
+#: wp-cloudflare-super-page-cache.php:454
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: libs/backend.class.php:160 libs/backend.class.php:161
+msgid "WP Cloudflare Super Page Cache Nginx Settings"
+msgstr "WP Cloudflare Super Page Cache - Regole Nginx"
+
+#: libs/backend.class.php:173 libs/backend.class.php:662
+#: libs/cache_controller.class.php:1251 libs/cloudflare.class.php:663
+#: libs/cloudflare.class.php:729 libs/logs.class.php:119
+#: libs/logs.class.php:154 libs/preloader.class.php:39
+msgid "Permission denied"
+msgstr "Permesso negato"
+
+#: libs/backend.class.php:594
+msgid "Settings updated successfully"
+msgstr "Impostazioni aggiornate con successo"
+
+#: libs/backend.class.php:640
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: libs/backend.class.php:643
+msgid "Config"
+msgstr "Configurazione"
+
+#: libs/cache_controller.class.php:145
+msgid "Cloudflare Page Cache Settings"
+msgstr "Opzioni page cache Cloudflare"
+
+#: libs/cache_controller.class.php:160
+msgid "Bypass the cache for this page"
+msgstr "Escludi questa pagina dalla cache"
+
+#: libs/cache_controller.class.php:162 libs/views/settings.php:340
+#: libs/views/settings.php:372 libs/views/settings.php:395
+#: libs/views/settings.php:411 libs/views/settings.php:462
+#: libs/views/settings.php:479 libs/views/settings.php:494
+#: libs/views/settings.php:509 libs/views/settings.php:524
+#: libs/views/settings.php:540 libs/views/settings.php:626
+#: libs/views/settings.php:642 libs/views/settings.php:689
+#: libs/views/settings.php:745 libs/views/settings.php:773
+#: libs/views/settings.php:801 libs/views/settings.php:890
+#: libs/views/settings.php:905
+msgid "No"
+msgstr "No"
+
+#: libs/cache_controller.class.php:163 libs/views/settings.php:338
+#: libs/views/settings.php:370 libs/views/settings.php:393
+#: libs/views/settings.php:409 libs/views/settings.php:460
+#: libs/views/settings.php:477 libs/views/settings.php:492
+#: libs/views/settings.php:507 libs/views/settings.php:522
+#: libs/views/settings.php:538 libs/views/settings.php:624
+#: libs/views/settings.php:640 libs/views/settings.php:687
+#: libs/views/settings.php:743 libs/views/settings.php:771
+#: libs/views/settings.php:799 libs/views/settings.php:888
+#: libs/views/settings.php:903
+msgid "Yes"
+msgstr "Si"
+
+#: libs/cache_controller.class.php:1205 libs/cache_controller.class.php:1236
+msgid ""
+"Cache purged successfully. It may take up to 30 seconds for the cache to be "
+"permanently cleaned by Cloudflare"
+msgstr ""
+"Cache pulita correttamente. Affinché Cloudflare pulisca la cache "
+"interamente, potrebbero essere necessario attendere fino a 30 secondi"
+
+#: libs/cache_controller.class.php:1257
+msgid ""
+"Cloudflare and all configurations have been reset to the initial settings."
+msgstr ""
+"Cloudlare e tutte le configurazioni sono state resettate alle impostazioni "
+"iniziali."
+
+#: libs/cloudflare.class.php:136 libs/cloudflare.class.php:224
+#: libs/cloudflare.class.php:279 libs/cloudflare.class.php:337
+#: libs/cloudflare.class.php:395 libs/cloudflare.class.php:451
+#: libs/cloudflare.class.php:505 libs/cloudflare.class.php:546
+#: libs/cloudflare.class.php:563 libs/cloudflare.class.php:575
+msgid "Connection error: "
+msgstr "Errore di connessione: "
+
+#: libs/cloudflare.class.php:185
+msgid "Unable to retrive zone id due to invalid response data"
+msgstr "Impossibile recuperare lo zone id per via di una risposta non valida"
+
+#: libs/cloudflare.class.php:200
+msgid "Unable to find domains configured on Cloudflare"
+msgstr "Impossibile recuperare la lista dei domini configurati su Cloudflare"
+
+#: libs/cloudflare.class.php:254
+msgid "Unable to find Browser Cache TTL settings "
+msgstr "Impossibile trovare i settaggi di Browser Cache TTL "
+
+#: libs/cloudflare.class.php:318
+msgid "There is not page rule to delete"
+msgstr "Non c'è alcuna page rule da eliminare"
+
+#: libs/cloudflare.class.php:323
+msgid "There is not zone id to use"
+msgstr "Non c'è alcun zone id da usare"
+
+#: libs/cloudflare.class.php:589
+msgid ""
+"The cache doesn't seem to work. If you have recently enabled the cache or it "
+"is your first test, wait about 30 seconds and try again because the changes "
+"take a few seconds for Cloudflare to propagate them on the web. If the error "
+"persists, request support for a detailed check."
+msgstr ""
+"La cache sembra non funzionare. Se hai abilitato la cache di recente o se si "
+"tratta del tuo primo test di verifica, attendi circa 30 secondi e riprova in "
+"quanto i cambiamenti potrebbero richiedere diversi secondi affinché "
+"Cloudflare li propaghi sul web. Se l'errore persiste, richiedi un supporto "
+"per un controllo dettagliato."
+
+#: libs/cloudflare.class.php:596
+#, fuzzy, php-format
+#| msgid "Cache status: %s - Try again"
+msgid "Cache status: %s - Please try to test again"
+msgstr "Status della cache: %s - Riprova"
+
+#: libs/cloudflare.class.php:601
+#, php-format
+msgid ""
+"Cache status: %s - Something wrong in your Cloudflare setup. Please check "
+"that the page rule was created correctly and that Cloudflare is respecting "
+"the original HTTP response headers."
+msgstr ""
+"Cache status: %s - Qualcosa non va nella configurazione di Cloudflare. "
+"Verifica che la regola di pagina sia stata creata correttamente e che "
+"Cloudflare stia rispettando gli header HTTP di risposta originali."
+
+#: libs/cloudflare.class.php:605
+#, php-format
+msgid "Cache status: %s - Try again"
+msgstr "Status della cache: %s - Riprova"
+
+#: libs/cloudflare.class.php:645
+msgid "Page caching is working properly"
+msgstr "La cache funziona correttamente"
+
+#: libs/cloudflare.class.php:713
+msgid "Page cache enabled successfully"
+msgstr "Cache abilitata con successo"
+
+#: libs/cloudflare.class.php:754
+msgid "Page cache disabled successfully"
+msgstr "Cache disabilitata con successo"
+
+#: libs/logs.class.php:139
+msgid "Log cleaned successfully"
+msgstr "Log eliminati con successo"
+
+#: libs/logs.class.php:163
+#, php-format
+msgid "Unable export logs to %s"
+msgstr "Impossibile esportare i log su %s"
+
+#: libs/logs.class.php:198
+msgid "Click here to download logs"
+msgstr "Clicca qui per scaricare i log"
+
+#: libs/preloader.class.php:45
+msgid ""
+"Unable to start background processes: WP_Background_Process does not exists."
+msgstr ""
+"Impossibile avviare il preloader per l'assenza della classe PHP "
+"WP_Background_Process."
+
+#: libs/preloader.class.php:51
+msgid ""
+"Unable to start background processes: SWCFPC_Preloader_Process does not "
+"exists."
+msgstr ""
+"Impossibile avviare il preloader per l'assenza della classe PHP "
+"SWCFPC_Preloader_Process."
+
+#: libs/preloader.class.php:57
+msgid "You cannot start the preloader while the page cache is disabled."
+msgstr "Non puoi avviare il preloader con la cache disabilitata."
+
+#: libs/preloader.class.php:85
+msgid "No URLs available. Nothing to preload."
+msgstr "Nessuna URL disponibile. Niente da precaricare."
+
+#: libs/preloader.class.php:100
+msgid "Preloader started successfully"
+msgstr "Preloader avviato con successo"
+
+#: libs/views/nginx.php:5
+msgid "WP Cloudflare Super Page Cache - Nginx Settings"
+msgstr "WP Cloudflare Super Page Cache - Regole Nginx"
+
+#: libs/views/nginx.php:10
+msgid "Overwrite the cache-control header"
+msgstr "Sovrascrittura dell'header cache-control"
+
+#: libs/views/nginx.php:13
+msgid ""
+"Edit the main Nginx configuration file, usually /etc/nginx.conf, and enter "
+"these rules immediately after opening the http block:"
+msgstr ""
+"Modifica il file principale di Nginx, solitamente /etc/nginx.conf, ed "
+"inserisci le seguenti regole immediatamente dopo l'apertura del blocco http:"
+
+#: libs/views/nginx.php:22
+msgid ""
+"Now open the configuration file of your domain and add the following rules "
+"inside the block that deals with the management of PHP pages:"
+msgstr ""
+"Adesso apri il file di configurazione del tuo dominio e aggiungi le seguenti "
+"regole all'interno del blocco che si occupa della gestione delle pagine PHP:"
+
+#: libs/views/nginx.php:31 libs/views/nginx.php:47
+msgid "Save and restart Nginx."
+msgstr "Salva e riavvia Nginx."
+
+#: libs/views/nginx.php:38
+msgid "Browser caching rules"
+msgstr "Regole di browser caching"
+
+#: libs/views/nginx.php:41
+msgid "Open the configuration file of your domain and add the following rules:"
+msgstr ""
+"Apri il file di configurazione del tuo dominio e aggiungi le seguenti regole:"
+
+#: libs/views/settings.php:11
+#, php-format
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+#: libs/views/settings.php:11 libs/views/settings.php:17
+msgid "Hide this notice"
+msgstr "Nascondi questa notifica"
+
+#: libs/views/settings.php:34
+msgid "Enter your Cloudflare's API key and e-mail"
+msgstr "Inserisci la tua API key e l'indirizzo email Cloudflare"
+
+#: libs/views/settings.php:36
+msgid "You don't know how to do it? Follow these simple four steps:"
+msgstr "Non sai come fare? Segui questi semplici quattro passaggi:"
+
+#: libs/views/settings.php:39 libs/views/settings.php:54
+msgid "Log in to your Cloudflare account"
+msgstr "Accedi al tuo account Cloudflare"
+
+#: libs/views/settings.php:39 libs/views/settings.php:54
+msgid "and click on My Profile"
+msgstr "e clicca su My Profile"
+
+#: libs/views/settings.php:40
+msgid ""
+"Click on API tokens, scroll to API Keys and click on View beside Global API "
+"Key"
+msgstr ""
+"Clicca su API tokens, scrolla fino a API Keys e clicca su View vicino a "
+"Global API Key"
+
+#: libs/views/settings.php:41
+msgid "Enter your Cloudflare login password and click on View"
+msgstr "Inserisci login e password Cloudflare e clicca su View"
+
+#: libs/views/settings.php:42
+msgid ""
+"Enter both API key and e-mail address into the form below and click on "
+"Update settings"
+msgstr ""
+"Inserisci nel form qui in basso la API key, l'indirizzo email e clicca su "
+"Aggiorna impostazioni"
+
+#: libs/views/settings.php:49
+msgid "Enter your Cloudflare's API token"
+msgstr "Inserisci il tuo API token di Cloudflare"
+
+#: libs/views/settings.php:51
+msgid "You don't know how to do it? Follow these simple steps:"
+msgstr "Non sai come fare? Segui questi semplici passaggi:"
+
+#: libs/views/settings.php:55
+msgid "Click on API tokens > Create Token > Custom Token > Get started"
+msgstr "Clicca su API tokens > Create Token > Custom Token > Get started"
+
+#: libs/views/settings.php:56
+msgid "Enter a Token name (example: token for example.com)"
+msgstr "Inserisci il Token name (esempio: token per sito esempio.com)"
+
+#: libs/views/settings.php:57
+msgid "Permissions:"
+msgstr "Permissions:"
+
+#: libs/views/settings.php:66
+msgid "Account resources:"
+msgstr "Account resources:"
+
+#: libs/views/settings.php:71
+msgid "Zone resources:"
+msgstr "Zone resources:"
+
+#: libs/views/settings.php:76
+msgid "Click on Continue to summary and then on Create token"
+msgstr "Clicca su Continue to summary e poi su Create token"
+
+#: libs/views/settings.php:77
+msgid ""
+"Enter the generated token into the form below and click on Update settings"
+msgstr ""
+"Inserisci nel form qui in basso il token appena generato e clicca su "
+"Aggiorna impostazioni"
+
+#: libs/views/settings.php:97
+msgid "Select the domain"
+msgstr "Seleziona il dominio"
+
+#: libs/views/settings.php:99
+msgid ""
+"Select from the dropdown menu the domain for which you want to enable the "
+"cache"
+msgstr ""
+"Seleziona dal menu a tendina il dominio per il quale desideri abilitare la "
+"cache"
+
+#: libs/views/settings.php:118
+msgid "Enable Page Caching"
+msgstr "Abilita la Cache"
+
+#: libs/views/settings.php:120
+msgid ""
+"Now you can configure and enable the page cache to speed up this website"
+msgstr ""
+"Adesso puoi configurare ed abilitare la page cache per velocizzare questo "
+"sito web"
+
+#: libs/views/settings.php:123
+msgid "Enable Page Caching Now"
+msgstr "Abilita Page Cache Adesso"
+
+#: libs/views/settings.php:132
+msgid "Cache Actions"
+msgstr "Azioni Cache"
+
+#: libs/views/settings.php:135
+msgid "Disable Page Cache"
+msgstr "Disabilita Page Cache"
+
+#: libs/views/settings.php:139
+msgid "Purge Cache"
+msgstr "Pulisci Cache"
+
+#: libs/views/settings.php:143
+msgid "Test Cache"
+msgstr "Verifica Cache"
+
+#: libs/views/settings.php:146
+msgid "Are you sure you want reset all?"
+msgstr "Sei sicuro di voler ripristinare tutto?"
+
+#: libs/views/settings.php:147
+msgid "Reset All"
+msgstr "Ripristina Tutto"
+
+#: libs/views/settings.php:159
+msgid "Cloudflare General Settings"
+msgstr "Impostazioni Generali Cloudflare"
+
+#: libs/views/settings.php:164
+msgid "Authentication mode"
+msgstr "Modalit&agrave; di autenticazione"
+
+#: libs/views/settings.php:165
+msgid "Authentication mode to use to connect to your Cloudflare account."
+msgstr ""
+"Modalit&agrave; di autenticazione da usare per connettersi al tuo account "
+"Cloudflare."
+
+#: libs/views/settings.php:169
+msgid "API Token"
+msgstr "API Token"
+
+#: libs/views/settings.php:170
+msgid "API Key"
+msgstr "API Key"
+
+#: libs/views/settings.php:178
+msgid "Cloudflare e-mail"
+msgstr "E-mail Cloudflare"
+
+#: libs/views/settings.php:179
+msgid "The email address you use to log in to Cloudflare."
+msgstr "Indirizzo email che usi per accedere a Cloudflare."
+
+#: libs/views/settings.php:189
+msgid "Cloudflare API Key"
+msgstr "API Key Cloudflare"
+
+#: libs/views/settings.php:190
+msgid "The Global API Key extrapolated from your Cloudflare account."
+msgstr "Global API Key estrapolata dal tuo account Cloudflare."
+
+#: libs/views/settings.php:200
+msgid "Cloudflare API Token"
+msgstr "API Token Cloudflare"
+
+#: libs/views/settings.php:201
+msgid "The API Token extrapolated from your Cloudflare account."
+msgstr "API Token estrapolato dal tuo account Cloudflare."
+
+#: libs/views/settings.php:211 libs/views/settings.php:243
+msgid "Cloudflare Domain Name"
+msgstr "Nome a dominio su Cloudflare"
+
+#: libs/views/settings.php:212 libs/views/settings.php:244
+msgid ""
+"Select the domain for which you want to enable the cache and click on Update "
+"settings."
+msgstr ""
+"Seleziona il dominio per il quale intendi abilitare la cache e clicca su "
+"Aggiorna impostazioni."
+
+#: libs/views/settings.php:222
+msgid "Log mode"
+msgstr "Abilita log"
+
+#: libs/views/settings.php:223
+msgid ""
+"If enabled, all communications between Cloudflare and WP Cloudflare Super "
+"Page Cache will be logged."
+msgstr ""
+"Se abilitata, tutte le comunicazioni tra Cloudflare e WP Cloudflare Super "
+"Page Cache verranno loggate."
+
+#: libs/views/settings.php:228
+msgid "Enabled"
+msgstr "Abilitata"
+
+#: libs/views/settings.php:230
+msgid "Disabled"
+msgstr "Disabilitata"
+
+#: libs/views/settings.php:250
+msgid "Select a Domain Name"
+msgstr "Seleziona un nome a dominio"
+
+#: libs/views/settings.php:276
+msgid "Subdomain"
+msgstr "Sottodominio"
+
+#: libs/views/settings.php:277
+msgid ""
+"If you want to enable the cache for a subdomain of the selected domain, "
+"enter it here. For example, if you selected the domain example.com from the "
+"drop-down menu and you want to enable the cache for subdomain.example.com, "
+"enter subdomain.example.com here."
+msgstr ""
+"Se vuoi abilitare la cache per un sottodominio del dominio selezionato, "
+"inseriscilo qui. Ad esempio, se hai selezionato il dominio esempio.com dal "
+"menu a tendina e desideri abilitare la cache per il sottodominio demo.es\n"
+"empio.com, inserisci demo.esempio.com qui."
+
+#: libs/views/settings.php:288
+msgid "Cache lifetime settings"
+msgstr "Impostazioni durata cache"
+
+#: libs/views/settings.php:293
+msgid "Cloudflare Cache-Control max-age"
+msgstr "Cache-Control max-age di Cloudflare"
+
+#: libs/views/settings.php:294
+msgid ""
+"Don't touch if you don't know what is it. Must be grater than zero. "
+"Recommended 604800"
+msgstr ""
+"Non toccarlo se non sai cos'è. Deve essere maggiore di zero. Valore "
+"consigliato: 604800"
+
+#: libs/views/settings.php:304
+msgid "Browser Cache-Control max-age"
+msgstr "Cache-Control max-age del browser"
+
+#: libs/views/settings.php:305
+msgid ""
+"Don't touch if you don't know what is it. Must be grater than zero. "
+"Recommended a value between 60 and 600"
+msgstr ""
+"Non toccarlo se non sai cos'è. Deve essere maggiore di zero. È consigliato "
+"un valore compreso tra 60 e 600"
+
+#: libs/views/settings.php:315
+msgid "Cache behavior settings"
+msgstr "Impostazioni sul comportamento della cache"
+
+#: libs/views/settings.php:320
+msgid "Posts per page"
+msgstr "Post per pagina"
+
+#: libs/views/settings.php:321
+msgid ""
+"Enter how many posts per page (or category) the theme shows to your users. "
+"It will be use to clean up the pagination on cache purge."
+msgstr ""
+"Inserisci quanti post per pagina (o categoria) il template mostra ai tuoi "
+"utenti. Verrà utilizzato per ripulire la paginazione in caso di pulizia "
+"della cache."
+
+#: libs/views/settings.php:331
+msgid ""
+"Overwrite the cache-control header for Wordpress's pages using web server "
+"rules"
+msgstr ""
+"Sovrascrivi gli header cache-control per le pagine Wordpress usando le "
+"regole del web server"
+
+#: libs/views/settings.php:332
+msgid ""
+"This option is useful if you use WP Cloudflare Super Page Cache together "
+"with other performance plugins that could affect the Cloudflare cache with "
+"their cache-control headers. It works automatically if you are using Apache "
+"as web server or as backend web server."
+msgstr ""
+"Questa opzione è utile se usi WP Cloudflare Super Page Cache insieme ad "
+"altri plugin di performance che potrebbero entrare in conflitto con la cache "
+"di Cloudflare qualora creassero ulteriori header cache-control. Questa "
+"opzione funziona automaticamente se usi Apache come web server principale o "
+"come web server di backend."
+
+#: libs/views/settings.php:344
+msgid ""
+"This option is not essential. In most cases this plugin works out of the "
+"box. If the page cache does not work after a considerable number of "
+"attempts, activate this option."
+msgstr ""
+"Questa opzione non &egrave; fondamentale. Questo plugin funziona out of the "
+"box nella maggior parte dei casi. Se la cache non dovesse funzionare dopo un "
+"numero considerevole di tentativi, allora attiva questa opzione."
+
+#: libs/views/settings.php:348
+msgid ""
+"Seems you are using LiteSpeed Web Server. Due to its limitation in handling "
+"conditional response HTTP headers, you cannot use this option."
+msgstr ""
+"Sembra che tu stia utilizzando LiteSpeed Web Server. A causa della sua "
+"limitazione nella gestione degli header di risposta HTTP condizionali, non è "
+"possibile utilizzare questa opzione."
+
+#: libs/views/settings.php:352
+msgid "Read here if you use Apache (htaccess)"
+msgstr "Leggi qui se usi Apache (htaccess)"
+
+#: libs/views/settings.php:352
+msgid ""
+"for overwriting to work, make sure that the rules added by WP Cloudflare "
+"Super Page Cache are placed at the bottom of the htaccess file. If they are "
+"present BEFORE other caching rules of other plugins, move them to the bottom "
+"manually."
+msgstr ""
+"affinché la sovrascrittura funzioni, assicurati che le regole aggiunte da WP "
+"Cloudflare Super Page Cache siano inserite in fondo al file htaccess. "
+"Qualora dovessero essere presenti PRIMA di altre regole di caching di altri "
+"plugin, spostale in fondo manualmente."
+
+#: libs/views/settings.php:354 libs/views/settings.php:619
+msgid "Read here if you only use Nginx"
+msgstr "Leggi qui se usi solo Nginx"
+
+#: libs/views/settings.php:354 libs/views/settings.php:619
+msgid ""
+"it is not possible for WP Cloudflare Super Page Cache to automatically "
+"change the settings to allow this option to work immediately. For it to "
+"work, update these settings and then follow the instructions"
+msgstr ""
+"non è possibile per WP Cloudflare Super Page Cache modificare "
+"automaticamente le impostazioni per consentire a questa opzione di "
+"funzionare fin da subito. Per farla funzionare, aggiorna le impostazioni e "
+"segui le istruzioni"
+
+#: libs/views/settings.php:354 libs/views/settings.php:455
+#: libs/views/settings.php:472 libs/views/settings.php:619
+msgid "on this page"
+msgstr "su questa pagina"
+
+#: libs/views/settings.php:363
+msgid "Strip response cookies on pages that should be cached"
+msgstr ""
+"Rimuovi i cookie di risposta sulle pagine che dovrebbero essere inserite in "
+"cache"
+
+#: libs/views/settings.php:364
+msgid ""
+"If the page is not cached due to response cookies and you are sure that "
+"these cookies are not essential for the website to function, enable this "
+"option."
+msgstr ""
+"Se la pagina non &egrave; in cache per colpa dei cookie di risposta e sei "
+"certo che questi cookie non sono essenziali per il funzionamento del sito "
+"web, abilita questa opzione."
+
+#: libs/views/settings.php:377
+msgid ""
+"Seems you are using LiteSpeed Web Server. Due to its limitation in the "
+"management of conditional response HTTP headers, the removal of cookies will "
+"take place using only PHP, without the support of the web server through "
+"htaccess rules."
+msgstr ""
+"Sembra che tu stia utilizzando LiteSpeed Web Server. A causa della sua "
+"limitazione nella gestione degli header di risposta HTTP condizionali, la "
+"rimozione dei cookie avverr&agrave; usando solo PHP, senza il supporto del "
+"web server mediante regole htaccess."
+
+#: libs/views/settings.php:387
+msgid ""
+"Automatically purge the Cloudflare cache on website changes (posts, pages, "
+"themes, attachments, etc..)"
+msgstr ""
+"Pulisci la cache di Cloudflare automaticamente quando avvengono modifiche al "
+"sito (post, pagine, temi, articoli, ecc..)"
+
+#: libs/views/settings.php:388
+msgid ""
+"If enabled, WP Cloudflare Super Page Cache tries to purge the cache for "
+"related pages only."
+msgstr ""
+"Se abilitata, WP Cloudflare Super Page Cache prova a pulire la cache solo "
+"per le pagine correlate."
+
+#: libs/views/settings.php:403
+msgid ""
+"Automatically purge the whole Cloudflare cache on website changes (posts, "
+"pages, themes, attachments, etc..)"
+msgstr ""
+"Pulisci automaticamente l'intera cache Cloudflare quando avvengono modifiche "
+"al sito (post, pagine, temi, allegati, ecc..)"
+
+#: libs/views/settings.php:404
+msgid ""
+"If enabled, WP Cloudflare Super Page Cache will purge the whole Cloudflare "
+"cache."
+msgstr ""
+"Se abilitata, WP Cloudflare Super Page Cache pulisce l'intera cache di "
+"Cloudflare."
+
+#: libs/views/settings.php:420
+msgid "Don't cache the following page types"
+msgstr "Non inserire in cache le seguenti tipologie di pagine"
+
+#: libs/views/settings.php:423
+msgid "Page 404 (is_404)"
+msgstr "Pagina 404 (is_404)"
+
+#: libs/views/settings.php:423 libs/views/settings.php:431
+#: libs/views/settings.php:432 libs/views/settings.php:434
+#: libs/views/settings.php:667 libs/views/settings.php:668
+#: libs/views/settings.php:669 libs/views/settings.php:713
+#: libs/views/settings.php:825 libs/views/settings.php:826
+#: libs/views/settings.php:849
+msgid "(recommended)"
+msgstr "(consigliato)"
+
+#: libs/views/settings.php:424
+msgid "Single Posts (is_single)"
+msgstr "Singolo post (is_single)"
+
+#: libs/views/settings.php:425
+msgid "Pages (is_page)"
+msgstr "Pagine (is_page)"
+
+#: libs/views/settings.php:426
+msgid "Front Page (is_front_page)"
+msgstr "Pagina iniziale (is_front_page)"
+
+#: libs/views/settings.php:427
+msgid "Home (is_home)"
+msgstr "Home (is_home)"
+
+#: libs/views/settings.php:428
+msgid "Archives (is_archive)"
+msgstr "Archivi (is_archive)"
+
+#: libs/views/settings.php:429
+msgid "Tags (is_tag)"
+msgstr "Tag (is_tag)"
+
+#: libs/views/settings.php:430
+msgid "Categories (is_category)"
+msgstr "Categorie (is_category)"
+
+#: libs/views/settings.php:431
+msgid "Feeds (is_feed)"
+msgstr "Feed (is_feed)"
+
+#: libs/views/settings.php:432
+msgid "Search Pages (is_search)"
+msgstr "Risultati di ricerca (is_search)"
+
+#: libs/views/settings.php:433
+msgid "Author Pages (is_author)"
+msgstr "Pagine autori (is_author)"
+
+#: libs/views/settings.php:434
+msgid "AMP Pages"
+msgstr "Pagine AMP"
+
+#: libs/views/settings.php:441
+msgid "Prevent the following URIs to be cached"
+msgstr "Non inserire in cache le seguenti URI"
+
+#: libs/views/settings.php:442
+msgid "One URI per line. You can use the * for wildcard URLs."
+msgstr "Una URI per riga. Puoi usare l'asterisco * per URL wildcard."
+
+#: libs/views/settings.php:443
+msgid "Example"
+msgstr "Esempio"
+
+#: libs/views/settings.php:453
+msgid "Prevent XML sitemaps to be cached"
+msgstr "Escludi dalla cache le sitemap XML"
+
+#: libs/views/settings.php:455 libs/views/settings.php:472
+msgid "If you only use Nginx"
+msgstr "Se usi solo Nginx"
+
+#: libs/views/settings.php:455 libs/views/settings.php:472
+msgid "it is recommended to add the browser caching rules that you find"
+msgstr "è consigliato aggiungere le regole di browser caching che trovi"
+
+#: libs/views/settings.php:455 libs/views/settings.php:472
+msgid "after saving these settings"
+msgstr "dopo aver salvato queste configurazioni"
+
+#: libs/views/settings.php:470
+msgid "Prevent robots.txt to be cached"
+msgstr "Escludi dalla cache robots.txt"
+
+#: libs/views/settings.php:487
+msgid "Bypass the cache for logged-in users"
+msgstr "Eludi la cache per gli utenti loggati"
+
+#: libs/views/settings.php:502
+msgid "Bypass the cache for AJAX requests"
+msgstr "Eludi la cache per le richieste AJAX"
+
+#: libs/views/settings.php:517
+msgid "Bypass the cache for POST requests"
+msgstr "Eludi la cache per le richieste POST"
+
+#: libs/views/settings.php:533
+msgid "Bypass the cache for requests with GET variables"
+msgstr "Eludi la cache per le richieste con variabili GET"
+
+#: libs/views/settings.php:548
+msgid "Preloader"
+msgstr "Preloader"
+
+#: libs/views/settings.php:553 libs/views/settings.php:557
+msgid "Start preloader"
+msgstr "Avvia preloader"
+
+#: libs/views/settings.php:554
+msgid ""
+"Start preloading the pages of your website to speed up their inclusion in "
+"the Cloudflare cache. Make sure the cache is working first."
+msgstr ""
+"Precarica le pagine del tuo sito web per accelerarne l'inclusione nella "
+"cache di Cloudflare. Assicurati prima che la cache funzioni."
+
+#: libs/views/settings.php:565
+msgid "Logs"
+msgstr "Log"
+
+#: libs/views/settings.php:570
+msgid "Logs expiration"
+msgstr "Scadenza log"
+
+#: libs/views/settings.php:571
+msgid "Automatically delete logs older than X days."
+msgstr "Cancella automaticamente i log pi&ugrave; vecchi di X giorni."
+
+#: libs/views/settings.php:576
+msgid "7 days"
+msgstr "7 giorni"
+
+#: libs/views/settings.php:577
+msgid "15 days"
+msgstr "15 giorni"
+
+#: libs/views/settings.php:578
+msgid "1 day"
+msgstr "1 giorno"
+
+#: libs/views/settings.php:587
+msgid "Clean logs manually"
+msgstr "Cancella log manualmente"
+
+#: libs/views/settings.php:588
+msgid "Delete all the logs currently stored and optimize the log table."
+msgstr ""
+"Cancella tutti i log attualmente memorizzati ed ottimizza la tabella dei log."
+
+#: libs/views/settings.php:591
+msgid "Clear logs now"
+msgstr "Cancella log adesso"
+
+#: libs/views/settings.php:599
+msgid "Download logs"
+msgstr "Scarica log"
+
+#: libs/views/settings.php:600
+msgid "Generate a fresh download link to logs."
+msgstr "Genera un nuovo link di download dei log."
+
+#: libs/views/settings.php:603
+msgid "Download log file"
+msgstr "Scarica file log"
+
+#: libs/views/settings.php:611
+msgid "Browser caching"
+msgstr "Browser caching"
+
+#: libs/views/settings.php:616
+msgid "Add browser caching rules for assets"
+msgstr "Aggiungi regole di browser caching per file statici"
+
+#: libs/views/settings.php:617
+msgid ""
+"This option is useful if you want to use WP Cloudflare Super Page Cache to "
+"enable browser caching rules for assets such like images, CSS, scripts, etc. "
+"It works automatically if you use Apache as web server or as backend web "
+"server."
+msgstr ""
+"Questa opzione è utile qualora voglia usare WP Cloudflare Super Page Cache "
+"per abilitare le regole di browser caching per file statici come immagini, "
+"CSS, script, ecc. Questa opzione funziona automaticamente se usi Apache come "
+"web server principale o come web server di backend."
+
+#: libs/views/settings.php:635
+msgid ""
+"Automatically purge single post cache when a new comment is inserted into "
+"the database or when a comment is approved or deleted"
+msgstr ""
+"Pulisci automaticamente la cache del singolo post quando viene aggiunto un "
+"nuovo commento o quando un commento viene approvato o eliminato"
+
+#: libs/views/settings.php:652
+msgid "WooCommerce settings"
+msgstr "Impostazioni WooCommerce"
+
+#: libs/views/settings.php:655 libs/views/settings.php:701
+#: libs/views/settings.php:729 libs/views/settings.php:757
+#: libs/views/settings.php:785 libs/views/settings.php:813
+#: libs/views/settings.php:837
+msgid "Active plugin"
+msgstr "Plugin attivo"
+
+#: libs/views/settings.php:657 libs/views/settings.php:703
+#: libs/views/settings.php:731 libs/views/settings.php:759
+#: libs/views/settings.php:787 libs/views/settings.php:815
+#: libs/views/settings.php:839
+msgid "Inactive plugin"
+msgstr "Plugin inattivo"
+
+#: libs/views/settings.php:664
+msgid "Don't cache the following WooCommerce page types"
+msgstr "Non inserire in cache le seguenti tipologie di pagine WooCommerce"
+
+#: libs/views/settings.php:667
+msgid "Cart (is_cart)"
+msgstr "Carrello (is_cart)"
+
+#: libs/views/settings.php:668
+msgid "Checkout (is_checkout)"
+msgstr "Checkout (is_checkout)"
+
+#: libs/views/settings.php:669
+msgid "Checkout's pay page (is_checkout_pay_page)"
+msgstr "Pagina di pagamento del checkout (is_checkout_pay_page)"
+
+#: libs/views/settings.php:670
+msgid "Product (is_product)"
+msgstr "Prodotto (is_product)"
+
+#: libs/views/settings.php:671
+msgid "Shop (is_shop)"
+msgstr "Negozio (is_shop)"
+
+#: libs/views/settings.php:672
+msgid "Product taxonomy (is_product_taxonomy)"
+msgstr "Tassonomia prodotto (is_product_taxonomy)"
+
+#: libs/views/settings.php:673
+msgid "Product tag (is_product_tag)"
+msgstr "Tag prodotto (is_product_tag)"
+
+#: libs/views/settings.php:674
+msgid "Product category (is_product_category)"
+msgstr "Categoria prodotto (is_product_category)"
+
+#: libs/views/settings.php:675
+msgid "WooCommerce page (is_woocommerce)"
+msgstr "Pagine WooCommerce (is_woocommerce)"
+
+#: libs/views/settings.php:682
+msgid ""
+"Automatically purge cache for product page and related categories when stock "
+"quantity changes"
+msgstr ""
+"Pulisci automaticamente la cache per la pagina prodotto e categorie "
+"correlate quando cambia la quantità in stock"
+
+#: libs/views/settings.php:699
+msgid "W3 Total Cache settings"
+msgstr "Impostazioni W3 Total cache"
+
+#: libs/views/settings.php:710 libs/views/settings.php:822
+#: libs/views/settings.php:846
+msgid "Automatically purge the cache when"
+msgstr "Pulisci automaticamente la cache quando"
+
+#: libs/views/settings.php:713
+msgid "W3TC flushs all caches"
+msgstr "W3TC pulisce tutte le cache"
+
+#: libs/views/settings.php:714
+msgid "W3TC flushs database cache"
+msgstr "W3TC pulisce la cache del database"
+
+#: libs/views/settings.php:715
+msgid "W3TC flushs fragment cache"
+msgstr "W3TC pulisce la fragment cache"
+
+#: libs/views/settings.php:716
+msgid "W3TC flushs object cache"
+msgstr "W3TC pulisce la object cache"
+
+#: libs/views/settings.php:717
+msgid "W3TC flushs posts cache"
+msgstr "W3TC pulisce la cache dei post"
+
+#: libs/views/settings.php:718
+msgid "W3TC flushs minify cache"
+msgstr "W3TC pulisce la cache dei file minificati"
+
+#: libs/views/settings.php:727
+msgid "LiteSpeed Cache settings"
+msgstr "Impostazioni LiteSpeed Cache"
+
+#: libs/views/settings.php:738
+msgid "Automatically purge the cache when LiteSpeed Cache flushs all caches"
+msgstr ""
+"Pulisci automaticamente la cache quando LiteSpeed Cache pulisce tutte le "
+"cache"
+
+#: libs/views/settings.php:755
+msgid "WP Fastest Cache settings"
+msgstr "Impostazioni WP Fastest Cache"
+
+#: libs/views/settings.php:766
+msgid "Automatically purge the cache when WP Fastest Cache flushs all caches"
+msgstr ""
+"Pulisci automaticamente la cache quando WP Fastest Cache pulisce tutte le "
+"cache"
+
+#: libs/views/settings.php:783
+msgid "Hummingbird settings"
+msgstr "Impostazioni Hummingbird"
+
+#: libs/views/settings.php:794
+msgid "Automatically purge the cache when Hummingbird flushs page cache"
+msgstr "Pulisci automaticamente la cache quando Hummingbird pulisce la cache"
+
+#: libs/views/settings.php:811
+msgid "WP Rocket settings"
+msgstr "Impostazioni WP Rocket"
+
+#: libs/views/settings.php:825
+msgid "WP Rocket flushs all caches"
+msgstr "WP Rocket pulisce tutte le cache"
+
+#: libs/views/settings.php:826
+msgid "WP Rocket flushs single post cache"
+msgstr "WP Rocket pulisce la cache del singolo post"
+
+#: libs/views/settings.php:835
+msgid "WP Super Cache settings"
+msgstr "Impostazioni WP Super Cache"
+
+#: libs/views/settings.php:849
+msgid "WP Super Cache flushs all caches"
+msgstr "WP Super Cache pulisce la cache"
+
+#: libs/views/settings.php:856
+msgid "Other settings"
+msgstr "Altre impostazioni"
+
+#: libs/views/settings.php:861
+msgid "Purge the whole Cloudflare cache with a Cronjob"
+msgstr "Pulisci l'intera cache di Cloudflare con un cronjob"
+
+#: libs/views/settings.php:864
+msgid ""
+"If you want purge the whole Cloudflare cache at specific intervals decided "
+"by you, you can create a cronjob that hits the following URL"
+msgstr ""
+"Se desideri ripulire l'intera cache di Cloudflare ad intervalli specifici "
+"decisi da te, puoi creare un cronjob che richiama la seguente URL"
+
+#: libs/views/settings.php:872
+msgid "Purge cache URL secret key"
+msgstr "Chiave segreta"
+
+#: libs/views/settings.php:873
+msgid ""
+"Secret key to use to purge the whole Cloudflare cache via URL. Don't touch "
+"if you don't know how to use it."
+msgstr ""
+"Chiave segreta per svuotare l'intera cache di Cloudflare via URL. Non "
+"toccare se non sai come si usa."
+
+#: libs/views/settings.php:883
+msgid "Remove purge option from toolbar"
+msgstr "Rimuovi le opzioni di pulizia cache dalla toolbar"
+
+#: libs/views/settings.php:898
+msgid "Disable metaboxes on single pages and posts"
+msgstr "Disabilita le metabox per pagine e articoli"
+
+#: libs/views/settings.php:915
+msgid "Update settings"
+msgstr "Aggiorna impostazioni"
+
+#: libs/views/sidebar.php:5
+msgid "Donations and Reviews"
+msgstr "Donazioni e Recensioni"
+
+#: libs/views/sidebar.php:7
+msgid ""
+"This plugin is free but as you know it requires many hours of development "
+"and maintenance, not to mention the support that takes several hours of my "
+"day every day."
+msgstr ""
+"Questo plugin &egrave; gratuito ma come sai richiede molte ore di sviluppo e "
+"manutenzione, senza parlare del supporto che richiede molte ore ogni giorno."
+
+#: libs/views/sidebar.php:8
+msgid "If you wish to donate a coffee,"
+msgstr "Se desideri offrirmi un caff&eacute;,"
+
+#: libs/views/sidebar.php:8
+msgid "go to this page"
+msgstr "vai su questa pagina"
+
+#: libs/views/sidebar.php:8
+msgid "and click on the button"
+msgstr "e clicca sul bottone"
+
+#: libs/views/sidebar.php:9
+msgid "If you want to contribute differently,"
+msgstr "Se vuoi contribuire in modo differente,"
+
+#: libs/views/sidebar.php:9
+msgid "drop a review on the official plugin page"
+msgstr "scrivi una recensione sulla pagina ufficiale del plugin"
+
+#: libs/views/sidebar.php:10
+msgid "Thanks a lot in advance!"
+msgstr "Grazie in anticipo!"
+
+#: libs/views/sidebar.php:16
+msgid "About the author and support"
+msgstr "Note sull'autore e supporto"
+
+#: libs/views/sidebar.php:21
+msgid ""
+"My name is Salvatore Fresta and I'm an italian web performance specialist "
+"and a senior developer."
+msgstr ""
+"Mi chiamo Salvatore Fresta e sono un esperto di web performance ed uno "
+"sviluppatore senior."
+
+#: libs/views/sidebar.php:22
+msgid "I'm the founder of the first italian blog about Wordpress performance"
+msgstr ""
+"Sono il fondatore del primo blog italiano dedicato alle performance di "
+"Wordpress"
+
+#: libs/views/sidebar.php:22
+msgid "and the co-founder of the italian agency "
+msgstr "e co-fondatore dell'agenzia italiana "
+
+#: libs/views/sidebar.php:23
+msgid ""
+"If you have any issues with this plugin, drop me a line via email to "
+"salvatorefresta [at] gmail.com"
+msgstr ""
+"Qualora dovessi riscontrare problemi con questo plugin, scrivimi una email a "
+"salvatorefresta [at] gmail.com"
+
+#: vendor/a5hleyrich/wp-background-processing/classes/wp-background-process.php:425
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Ogni %d Minuti"
+
+#, fuzzy
+#~| msgid "Automatically purge the cache when"
+#~ msgid ""
+#~ "Automatically purge product page cache when an end user buys a product"
+#~ msgstr "Pulisci automaticamente la cache quando"
+
+#~ msgid "WP Cloudflare Super Page Cache - Logs"
+#~ msgstr "WP Cloudflare Super Page Cache - Log"
+
+#~ msgid "No logs available"
+#~ msgstr "Nessun log disponibile"
+
+#~ msgid "Debug info"
+#~ msgstr "Informazioni di debug"
+
+#~ msgid "Plugin status"
+#~ msgstr "Stato plugin"
+
+#~ msgid "Unable to find the page ID"
+#~ msgstr "Impossibile trovare l'ID della pagina"
+
+#~ msgid "Invalid page ID"
+#~ msgstr "ID pagina non valido"
+
+#~ msgid "Bypass the cache for WooCommerce cart page"
+#~ msgstr "Escludi dalla cache la pagina carrello"
+
+#~ msgid "Bypass the cache when viewing the cart page."
+#~ msgstr "Bypassa la cache quando viene visualizzata la pagina del carrello."
+
+#~ msgid "Bypass the cache for WooCommerce checkout page"
+#~ msgstr "Escludi dalla cache la pagina checkout"
+
+#~ msgid "Bypass the cache for WooCommerce checkout's pay page"
+#~ msgstr "Escludi dalla cache la pagina di pagamento"
+
+#~ msgid "Bypass the cache for WooCommerce products"
+#~ msgstr "Escludi dalla cache le pagine dei prodotti"
+
+#~ msgid "Bypass the cache when viewing a product."
+#~ msgstr "Bypassa la cache quando viene visualizzata la pagina del prodotto."
+
+#~ msgid "Bypass the cache for WooCommerce shop page"
+#~ msgstr "Escludi dalla cache la pagina negozio"
+
+#~ msgid "Bypass the cache for WooCommerce taxnonomy archives"
+#~ msgstr "Escludi dalla cache gli archivi delle tassonomie WooCommerce"
+
+#~ msgid "Bypass the cache for WooCommerce tags"
+#~ msgstr "Escludi dalla cache le pagine dei tag WooCommerce"
+
+#~ msgid "Bypass the cache for WooCommerce categories"
+#~ msgstr "Escludi dalla cache le pagine delle categorie WooCommerce"
+
+#~ msgid "Attention"
+#~ msgstr "Attenzione"
+
+#~ msgid "Sitemaps (only if dynamically generated by Yoast)"
+#~ msgstr "Sitemaps (solo se generate automaticamente da Yoast)"
+
+#~ msgid "Robots.txt (only if dynamically generated by Yoast)"
+#~ msgstr "File robots.txt (solo se generato dinamicamente da Yoast)"
+
+#~ msgid ""
+#~ "If you use Nginx, a new file with rules for not allowing XML sitemaps to "
+#~ "be cached will be available"
+#~ msgstr ""
+#~ "Se usi Nginx, un nuovo file con le regole per non consentire alle sitemap "
+#~ "XML di essere inserite in cache sarà disponibile"
+
+#~ msgid "by clicking here"
+#~ msgstr "cliccando qui"
+
+#~ msgid ""
+#~ "If you use Nginx, a new file with rules for not allowing robots.txt to be "
+#~ "cached will be available"
+#~ msgstr ""
+#~ "Se usi Nginx, un nuovo file con le regole per non consentire a robots.txt "
+#~ "di essere inserito in cache sarà disponibile"
+
+#~ msgid "if you use Nginx, a new file containing the rules will be available"
+#~ msgstr "se usi Nginx, un nuovo file contenente le regole sarà disponibile"

@@ -1,0 +1,26 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN WP Cloudflare Super Page Cache
+# The directives (lines) between `BEGIN WP Cloudflare Super Page Cache` and `END WP Cloudflare Super Page Cache` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_headers.c>
+Header unset Pragma "expr=resp('x-wp-cf-super-cache-active') == '1'"
+Header always unset Pragma "expr=resp('x-wp-cf-super-cache-active') == '1'"
+Header unset Expires "expr=resp('x-wp-cf-super-cache-active') == '1'"
+Header always unset Expires "expr=resp('x-wp-cf-super-cache-active') == '1'"
+Header unset Cache-Control "expr=resp('x-wp-cf-super-cache-active') == '1'"
+Header always unset Cache-Control "expr=resp('x-wp-cf-super-cache-active') == '1'"
+Header always set Cache-Control "s-max-age=604800, s-maxage=604800, max-age=60" "expr=resp('x-wp-cf-super-cache-active') == '1'"
+</IfModule>
+# END WP Cloudflare Super Page Cache
